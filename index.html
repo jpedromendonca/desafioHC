@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="cadastro" class="container">
+      <div class="chamada">
+        <h1>Nossa Black Friday, está chegando!</h1>
+        <h2>Se cadastre abaixo para informações e promoções!</h2>
+      </div>
+      <div id="form">
+        <p>
+          <label>Nome: <input /></label>
+        </p>
+        <p>
+          <label>Email: <input /></label>
+        </p>
+        <p>
+          <label
+            >Deseja receber mensagens sobre outras promoções e ofertas?</label
+          ><br />
+          <input
+            type="radio"
+            id="chkNewsletter"
+            name="y/n"
+            value="yes"
+            checked
+          />
+          <label for="yes">Sim! Quero economizar sempre!</label><br />
+
+          <input type="radio" id="chkNewsletter" name="y/n" value="no" />
+          <label for="no">Só sobre a Black Friday por enquanto.</label><br />
+        </p>
+        <p>
+          <button class="btn" type="submit">Enviar</button>
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
